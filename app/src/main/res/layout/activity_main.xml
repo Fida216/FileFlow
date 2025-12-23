@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/layoutPadding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_main"
+        android:textSize="@dimen/titleTextSize"
+        android:textStyle="bold"
+        android:textColor="@color/colorTitle"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="@dimen/inputMarginTop"
+        android:layout_marginTop="10dp"/>
+
+    <!-- LIST OF REAL PHONE FILES -->
+    <ListView
+        android:id="@+id/listViewFiles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/inputMarginTop" />
+
+    <!-- FILTER BY CATEGORY -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_filter_Category"
+        android:textSize="16sp"
+        android:textColor="@color/colorTitle"
+        android:layout_marginTop="@dimen/inputMarginTop"/>
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/inputMarginTop" />
+
+    <!-- FILTER BY IMPORTANCE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_filter_Importance"
+        android:textSize="16sp"
+        android:textColor="@color/colorTitle"
+        android:layout_marginTop="@dimen/inputMarginTop" />
+
+    <Spinner
+        android:id="@+id/spinnerUrgent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/inputMarginTop" />
+
+    <!-- BUTTON ROW -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/inputMarginTop">
+
+        <Button
+            android:id="@+id/btnAddTask"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_add_task"
+            android:backgroundTint="@color/colorButton"
+            android:textColor="@color/colorButtonText"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnModifyTask"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_modify"
+            android:backgroundTint="@color/colorButton"
+            android:textColor="@color/colorButtonText"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnDeleteTask"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_delete"
+            android:backgroundTint="@color/colorButton"
+            android:textColor="@color/colorButtonText" />
+
+    </LinearLayout>
+
+</LinearLayout>

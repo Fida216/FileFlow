@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- APP -->
+    <string name="app_name">FileFlow</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="title_main">My Files</string>
+
+    <!-- Labels -->
+    <string name="label_filter_Category">File Category</string>
+    <string name="label_filter_Importance">Importance</string>
+
+    <string name="label_filter_urgent">Important files</string>
+    <string name="label_filter_non_urgent">Not important files</string>
+    <string name="label_filter_all">All files</string>
+
+    <!-- ADD FILE -->
+    <string name="title_add_file">Add File</string>
+    <string name="hint_file_name">File name</string>
+    <string name="hint_file_URL">File URL</string>
+    <string name="hint_category">Category</string>
+    <string name="text_urgent">Important file</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_return">Return</string>
+
+    <!-- MODIFY FILE -->
+    <string name="title_modify">Modify File</string>
+    <string name="hint_old_name">Old file name</string>
+    <string name="hint_old_URL">Old file name</string>
+    <string name="hint_new_name">New file name</string>
+    <string name="hint_new_URL">New file URL</string>
+    <string name="hint_new_category_modify">New file Category</string>
+    <string name="label_urgent_modify">Important file</string>
+    <string name="btn_modify">Modify</string>
+
+    <!-- DELETE FILE -->
+    <string name="title_delete">Delete File</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- Buttons -->
+    <string name="btn_add_task">Add File</string>
+
+    <!-- Messages -->
+    <string name="msg_fill_fields">Please fill all fields</string>
+    <string name="msg_fill_all">Please fill all fields</string>
+    <string name="msg_file_added">File added successfully</string>
+    <string name="msg_task_modified">File modified</string>
+    <string name="msg_task_deleted">File deleted</string>
+    <string name="msg_task_not_found">File not found</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="titleTextSize">28sp</dimen>
+    <dimen name="inputMarginTop">12dp</dimen>
+    <dimen name="inputMarginBottom">16dp</dimen>
+    <dimen name="layoutPadding">20dp</dimen>
+</resources>

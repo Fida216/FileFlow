@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/layoutPadding"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvModifyFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/inputMarginBottom"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/titleTextSize"
+        android:textColor="@color/colorTitle"
+        android:text="@string/title_modify" />
+
+    <!-- OLD name -->
+    <EditText
+        android:id="@+id/edtOldFileName"
+        android:hint="@string/hint_old_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- OLD real file URI -->
+    <EditText
+        android:id="@+id/edtOldFileURL"
+        android:hint="@string/hint_old_URL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- NEW name -->
+    <EditText
+        android:id="@+id/edtNewFileName"
+        android:hint="@string/hint_new_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/inputMarginTop" />
+
+    <!-- NEW real file URI (optional if you keep same file) -->
+    <EditText
+        android:id="@+id/edtNewFileURL"
+        android:hint="@string/hint_new_URL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/inputMarginTop" />
+
+    <!-- NEW category -->
+    <EditText
+        android:id="@+id/edtNewFileCategory"
+        android:hint="@string/hint_new_category_modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/inputMarginTop" />
+
+    <!-- NEW important checkbox -->
+    <CheckBox
+        android:id="@+id/checkUrgentModify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_urgent_modify"
+        android:layout_marginTop="@dimen/inputMarginTop" />
+
+    <!-- Modify button -->
+    <Button
+        android:id="@+id/btnModify"
+        android:text="@string/btn_modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorButton"
+        android:textColor="@color/colorButtonText"
+        android:layout_marginTop="@dimen/inputMarginTop" />
+
+    <!-- Return button -->
+    <Button
+        android:id="@+id/btnReturn"
+        android:text="@string/btn_return"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorButton"
+        android:textColor="@color/colorButtonText"
+        android:layout_marginTop="@dimen/inputMarginTop" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layoutPadding"
+    android:gravity="center_horizontal">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvAddFileTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_add_file"
+        android:textColor="@color/colorTitle"
+        android:textSize="@dimen/titleTextSize"
+        android:layout_marginBottom="@dimen/inputMarginBottom" />
+
+    <!-- Select real file button -->
+    <Button
+        android:id="@+id/btnSelectFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select File"
+        android:backgroundTint="@color/colorButton"
+        android:textColor="@color/colorButtonText"
+        android:layout_marginTop="@dimen/inputMarginTop" />
+
+    <!-- Return button -->
+    <Button
+        android:id="@+id/btnReturnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_return"
+        android:backgroundTint="@color/colorButton"
+        android:textColor="@color/colorButtonText"
+        android:layout_marginTop="@dimen/inputMarginTop" />
+
+</LinearLayout>
